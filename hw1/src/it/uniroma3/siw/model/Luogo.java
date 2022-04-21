@@ -14,11 +14,11 @@ public class Luogo {
 	private String via;
 	private Integer numeroCivico;
 	private String comune;
-	private Integer cap;
+	private String cap;
 	private String provincia;
 
 
-	public Luogo(String via, Integer numeroCivico, String comune, Integer cap, String provincia) {
+	public Luogo(String via, Integer numeroCivico, String comune, String cap, String provincia) {
 		this.via = via;
 		this.numeroCivico = numeroCivico;
 		this.comune = comune;
@@ -45,10 +45,10 @@ public class Luogo {
 	public void setComune(String comune) {
 		this.comune = comune;
 	}
-	public Integer getCap() {
+	public String getCap() {
 		return cap;
 	}
-	public void setCap(Integer cap) {
+	public void setCap(String cap) {
 		this.cap = cap;
 	}
 	public String getProvincia() {

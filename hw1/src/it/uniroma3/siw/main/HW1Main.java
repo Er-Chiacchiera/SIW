@@ -22,7 +22,7 @@ public class HW1Main {
 		allievo1.setAzienda(azienda1);
 		Docente docente1 = new Docente("Pip", "Po", "piva01");
 		Corso corso1 = new Corso("Matematica", null, 3, docente1);
-		Luogo luogo1 = new Luogo("via", 000, "Roma", 11111, "RM");
+		Luogo luogo1 = new Luogo("via", 000, "Roma", "11111", "RM");
 		azienda1.setLuogo(luogo1);
 		
 

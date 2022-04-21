@@ -18,9 +18,9 @@ public class Azienda {
 	private String ragioneSociale;
 	@OneToOne(cascade = {CascadeType.PERSIST, CascadeType.REMOVE})
 	private Luogo luogo;
-	private Integer numeroTelefono;
+	private String numeroTelefono;
 
-	public Azienda(String ragioneSociale, Luogo luogo, Integer numeroTelefono) {
+	public Azienda(String ragioneSociale, Luogo luogo, String numeroTelefono) {
 		this.ragioneSociale = ragioneSociale;
 		this.luogo = luogo;
 		this.numeroTelefono = numeroTelefono;
@@ -46,11 +46,11 @@ public class Azienda {
 		this.luogo = luogo;
 	}
 
-	public Integer getNumeroTelefono() {
+	public String getNumeroTelefono() {
 		return numeroTelefono;
 	}
 
-	public void setNumeroTelefono(Integer numeroTelefono) {
+	public void setNumeroTelefono(String numeroTelefono) {
 		this.numeroTelefono = numeroTelefono;
 	}
 

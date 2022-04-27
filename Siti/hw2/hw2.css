@@ -1,16 +1,14 @@
 body {
-	background-color: #ffffff;
+	background-color: lightgray;
 	font-family: helvetica, arial, geneva, sans-serif; 
 	font-size: 1.0em;
-	margin-left: 3em;
-	margin-right: 3em;
 	color: black;
 	}
 
 h1 {
 	font-size: 2.5em; 
 	font-weight: bold; 
-	color:navy;
+	color: black;
 	margin:0;
 	}
 	
@@ -37,11 +35,15 @@ h3 {
 header a{
 	color: green;
 	text-decoration: none;
-	padding: 10px 20px;
+	padding: 10px 10px;
 }
 
 a{
 	text-decoration: none;
+	color: blue;
+}
+a:active{
+	color: black;
 }
 
 header a:hover{
@@ -55,11 +57,12 @@ text-align: left;
 h2.title{
 	background-color: hotpink;
 	color: darkgreen;
+	padding: 5px;
 } 
 
 header,footer{
   	font-size: 1.3em;
-  	background-color: hotpink;
+  	background-color: lightblue;
 	color: yellow;
 	height: 50px;
 	display: flex;
@@ -70,14 +73,40 @@ header,footer{
 div.flex-profilo{
 	font-size: 1em;
 }
+.img_profilo{
+	margin-right: 10px;
+	border-radius: 8px;
+	box-shadow: 0 0 8px #111;
+}
+
+.logo{
+	width: 25%;
+}
+.link{
+	width: 70%;
+}
+
+section{
+	padding: 1% 4% 1% 1.5%;
+
+}
+
+.contenitore{
+	width: 100%;
+	padding: 20px;
+	background: yellow;
+	box-shadow: 0 0 8px #111;
+	border-radius: 10px;
+
+}
 
 #flex-profilo {
-  margin: 20px;
+  margin: 0px;
   display: flex;
-  border: 2px solid pink;
-  padding: 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
   height: 100%;
   align-items: center;
   #flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }

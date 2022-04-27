@@ -3,6 +3,7 @@ body {
 	font-family: helvetica, arial, geneva, sans-serif; 
 	font-size: 1.0em;
 	color: black;
+	margin: 0;
 	}
 
 h1 {
@@ -33,7 +34,7 @@ h3 {
 }
 
 header a{
-	color: green;
+	color: darkblue;
 	text-decoration: none;
 	padding: 10px 10px;
 }
@@ -55,16 +56,17 @@ text-align: left;
 }
 
 h2.title{
-	background-color: hotpink;
-	color: darkgreen;
+	background-color: lightskyblue;
+	color: darkblue;
 	padding: 5px;
+	border-radius: 5px;
 } 
 
 header,footer{
   	font-size: 1.3em;
-  	background-color: lightblue;
-	color: yellow;
-	height: 50px;
+  	background-color: lightskyblue;
+	color: darkblue;
+	height: 70px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -94,7 +96,7 @@ section{
 .contenitore{
 	width: 100%;
 	padding: 20px;
-	background: yellow;
+	background: lightblue;
 	box-shadow: 0 0 8px #111;
 	border-radius: 10px;
 

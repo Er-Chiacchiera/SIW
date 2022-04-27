@@ -1,0 +1,83 @@
+body {
+	background-color: #ffffff;
+	font-family: helvetica, arial, geneva, sans-serif; 
+	font-size: 1.0em;
+	margin-left: 3em;
+	margin-right: 3em;
+	color: black;
+	}
+
+h1 {
+	font-size: 2.5em; 
+	font-weight: bold; 
+	color:navy;
+	margin:0;
+	}
+	
+h2  {	
+	font-size: 1.1em;
+	color:navy;
+	border:0;
+	padding:0;
+	margin:0;
+	}
+	
+h3 {
+	font-size: 1em;
+	padding:0;
+	margin:0;
+	}
+
+
+#paolo_merialdo{
+	font-size: 1.4em;
+	text-align: left;
+}
+
+header a{
+	color: green;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+header a:hover{
+	color: #fff;
+}
+
+li.sotto_ricerca2{
+text-align: left;
+}
+
+h2.title{
+	background-color: hotpink;
+	color: darkgreen;
+} 
+
+header,footer{
+  	font-size: 1.3em;
+  	background-color: hotpink;
+	color: yellow;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.flex-profilo{
+	font-size: 1em;
+}
+
+#flex-profilo {
+  margin: 20px;
+  display: flex;
+  border: 2px solid pink;
+  padding: 20px;
+  height: 100%;
+  align-items: center;
+  #flex-direction: column;
+  justify-content: space-evenly;
+}
